@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class LinkedListDemo
+{
+	public static void main(String[] args){
+		//Scanner sc=new Scanner();
+		LinkedList myList=new LinkedList();
+		
+		myList.addToFront(10);
+		myList.addToFront(20);
+		myList.addToFront(30);
+		myList.addToFront(40);
+		myList.printNodes();
+		// System.out.println("\n\n");
+		// myList.printNodes2();
+		// System.out.println("\n\n");
+		// myList.printNodes3();
+	}
+}

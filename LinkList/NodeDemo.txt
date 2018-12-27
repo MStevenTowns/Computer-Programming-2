@@ -1,0 +1,12 @@
+public class NodeDemo
+{
+	public static void main (String[] args)
+	{
+		Node myNode=new Node(10);
+		System.out.println(myNode.getValue());
+		Node node2=new Node(20);
+		System.out.println(node2.getValue());
+		myNode.setValue(node2.getValue());
+		System.out.println(myNode.getValue());
+	}
+}
